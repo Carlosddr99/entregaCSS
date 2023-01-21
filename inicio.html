@@ -9,86 +9,96 @@
 <body>
     <div id="cabecera">
         <div id="titulo"><strong>STOP STUDYING WITH DOGS </strong></div>
-        <div id="cabeceraContenido">
-            <img id="imgLogo" src="./imagenes/logo.jpg">
+        <div id="navContenedor">
+            <div id="cabeceraContenido">
+                <img id="imgLogo" src="./imagenes/logo.jpg">
                 <nav id="navCabecera">
                     <a href="inicio.html">Login</a>
                     <a href="inicio.html">Register</a>
                     <a href="inicio.html">Información</a>
                     <a href="inicio.html">Ayuda</a>
+                </nav>
             </div>
         </div>
     </div>
     <br>
 <div id="mainBody">
-    <div id="descripcionBreve">
+    <div id="video">
+        <video controls="true">
+        <source src="./videos/video-explicacion.mp4" type="video/mp4">
+        Your browser does not support the video tag
+        </video>
+    </div>
+
+
+<div id="parteIntroduccion">
+    <div class="contenedorColumna">
+        <div class="grupos"><strong> STUDYING WITH DOGS </strong></div>
         <br>
-    <div><strong> STUDYING WITH DOGS </strong></div>
-    <br>
         <div>
-            <div>
+            <label class="descripcion">
                 Recientemente se ha experimentando en Barcelona con perros Beagle para el estudio de ciertos fármacos.
                 Esta campaña está recolentando dinero para impedir el uso de los animales domesticos como ratas de laboratorio.
-            </div>
+            </label>
         </div>
     </div>
 
-    <br>
-
+    <div>
+    <div class="grupos"><strong>Progress</strong></div>
     <div id="informaciónProceso">
-        <strong>Progress:</strong>
-        <div id="cajaProgreso">
-            <div id="infoProceso">
-                <div>5.000$</div>
-                <progress max="16.000" value="5.000">5.000</progress>
-                <div>16.000$</div>
+        <div >
+            <div id="infoPago">
+                <label class="procesoPago">5.000$</label>
+                <progress class="procesoPago" max="16.000" value="5.000">5.000</progress>
+                <label class="procesoPago">16.000$</label>
             </div><br>
-            <div>
-                <button>Donar</button><br>
-                Introduce el importe a donar:<input type="number">
+            <div id="dineroImporte">
+                <button class="itemPagar">Donar</button><br>
+                <label class="itemPagar">Introduce el importe a donar:</label><br>
+                <input type="number">
             </div>
         </div>     
-        <br>
-        <diV><strong>Número de donantes:</strong></diV>
-        <diV>15</diV>
-        <br>
-        <diV><strong>Fecha cierre donación:</strong></diV>
-        <diV>27/02/2023</diV>
+        
+        <div id="infoDonantes">
+            <div><strong>Number of Donor</strong></div>
+            <diV>15</diV>
+            <br>
+            <div><strong>Fecha cierre donación:</strong></div>
+            <div>27/02/2023</div>
+        </div>
     </div>
+    </div>
+</div>
 
     <br>
 
-    <div id="informacionDonantes">
-        <div class="donante">
-            <div id="nombreUltimoDonate"><strong>Lucía Díaz</strong></div>
-            <div id="comentarioUltimoDonante">Mucho ánimo, sois geniales!!</div>
-        </div> <br>
-        <div class="donante">
-            <div id="nombrePenultimoDonate"><strong>Lucas Suaréz</strong></div>
-            <div id="comentarioPenultimoDonante">Me encanta el proyecto, seguid así.</div>
-        </div><br>
-        <div class="donante">
-            <div id="nombreAntepenultimoDonate"><strong>Tara María</strong></div>
-            <div id="comentarioAntepenultimoDonante">Si ayudamos entre todos lo conseguiremos.</div>
-        </div><br>
-    </div>
-
+    
     <div id="recursosPromocion">
-        <video controls="true" height="500px" width="700px">
-            <source src="./videos/video-explicacion.mp4" type="video/mp4">
-            Your browser does not support the video tag
-        </video>
-
-        <figure>
-            <img src="./imagenes/perro-prueba.png" alt="Perro usado en experimento">
+        <figure class="contenedorColumna">
+            <img id="imagenPerro" src="./imagenes/perro-prueba.png" alt="Perro usado en experimento">
             <figcaption>Perro usado en experimento</figcaption>
         </figure>
+        <div id="informacionDonantes">
+            <div class="grupos"><strong> Donors Comments </strong></div>
+            <br>
+            <div class="donante">
+                <div class="nombreDonate"><strong>Lucía Díaz</strong></div><br>
+                <div class="comentarioDonante">Mucho ánimo, sois geniales!!</div>
+            </div> <br><br>
+            <div class="donante">
+                <div class="nombreDonate"><strong>Lucas Suaréz</strong></div><br>
+                <div class="comentarioDonante">Me encanta el proyecto, seguid así.</div>
+            </div><br><br>
+            <div class="donante">
+                <div class="nombreDonate"><strong>Tara María</strong></div><br>
+                <div class="comentarioDonante">Si ayudamos entre todos lo conseguiremos.</div>
+            </div><br>
+        </div>
     </div>
-
 
     <div id="infomacionDueños">
         <br>
-    <div><strong>¿Quienes somos?</strong></div>
+    <div class="grupos"><strong>¿Quienes somos?</strong></div>
     <br>
         <div>
             <img src="./imagenes/img-carlos.PNG">
@@ -117,7 +127,7 @@
 
     <div id="descripcionExtensa">
         <br>
-    <div><strong>Descripción</strong></div>
+    <div class="grupos"><strong>Descripción</strong></div>
     <br>
         <div>
             <img src="./imagenes/anuncio-quedada.jpg">
