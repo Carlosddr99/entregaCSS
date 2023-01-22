@@ -98,12 +98,13 @@ width: 100px;
     display: flex;
     flex-direction: row;
     margin-top: 25px;
-    margin-left: 25px;
 }
 .contenedorColumna{
     width: 700px;
     margin-right: 10%;
     font-size: 20px;
+    margin-left: 25px;
+
 
 }
 
@@ -118,10 +119,47 @@ width: 100px;
 }
 
 #recursosPromocion{
-    margin-left: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+#infomacionCreadores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+#infomacionCreadores div  img{
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#infomacionCreadores div  label{
+    height: 350px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.imagenCreador{
+    display: flex;
+    padding-left: 15%;
+}
+
+
+#infomacionCreadores div{
+    width: 550px;
+}
+#infomacionCreadores #primerCreador{
+    margin-right: 19%;
+    width: 550px;
+}
+
+#creadores{
+    margin-left: 25px;
 }
 
 video{
