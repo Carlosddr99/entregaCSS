@@ -41,7 +41,7 @@ body{
     justify-content: flex-end;
 
 }
-a{
+.enlaceCabecera{
     margin-left: 15px;
     color: whitesmoke;
     text-decoration:none;
@@ -144,7 +144,7 @@ width: 100px;
     width: 400px;
     margin-bottom: 10px;
 }
-.imagenCreador{
+.imagenCentrada{
     display: flex;
     padding-left: 15%;
 }
@@ -160,6 +160,23 @@ width: 100px;
 
 #creadores{
     margin-left: 25px;
+}
+
+#dscExtensaInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+#descripcionExtensa{
+margin-left: 25px;
+font-size: 20px;
+
+}
+
+#dscExteTexto{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 video{
@@ -184,4 +201,32 @@ video{
     justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+footer div{
+    margin-top: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div label{
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: rgb(108, 69, 69);
+}
+
+footer div a{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration:none;
+    color: rgb(14, 7, 7);
+
+
 }
