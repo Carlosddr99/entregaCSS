@@ -13,10 +13,10 @@
             <div id="cabeceraContenido">
                 <img id="imgLogo" src="./imagenes/logo.jpg">
                 <nav id="navCabecera">
-                    <a href="inicio.html">Login</a>
-                    <a href="inicio.html">Register</a>
-                    <a href="inicio.html">Información</a>
-                    <a href="inicio.html">Ayuda</a>
+                    <a class="enlaceCabecera" href="inicio.html">Login</a>
+                    <a class="enlaceCabecera" href="inicio.html">Register</a>
+                    <a class="enlaceCabecera" href="inicio.html">Información</a>
+                    <a class="enlaceCabecera" href="inicio.html">Ayuda</a>
                 </nav>
             </div>
         </div>
@@ -60,7 +60,7 @@
         </div>     
         
         <div id="infoDonantes">
-            <div><strong>Number of Donor</strong></div>
+            <div><strong>Number of Donor:</strong></div>
             <diV>15</diV>
             <br>
             <div><strong>Fecha cierre donación:</strong></div>
@@ -101,7 +101,7 @@
     <br>
         <div id="infomacionCreadores">
             <div id="primerCreador">
-                <div class="imagenCreador"><img src="./imagenes/img-carlos.PNG"></div>
+                <div class="imagenCentrada"><img src="./imagenes/img-carlos.PNG"></div>
                 <label>
                 Soy Carlos, ingeniero de Telecomunicaciones.
                 <br>
@@ -111,7 +111,7 @@
                 </label>
             </div>
             <div>   
-                <div class="imagenCreador"><img src="./imagenes/Pablo-Chiapella.jpg"></div>
+                <div class="imagenCentrada"><img src="./imagenes/Pablo-Chiapella.jpg"></div>
                 <label>
                 Soy Pablo Chiapella, mejor conocido como el "Cuqui" por La que se Avecina.
                 <br>
@@ -129,13 +129,15 @@
         <br>
     <div class="grupos"><strong>Descripción</strong></div>
     <br>
-        <div>
+        <div id="dscExtensaInfo">
             <img src="./imagenes/anuncio-quedada.jpg">
-            <div>
+            <div id="dscExteTexto" class="descripcion">
+                <label>
                 El dinero recolectado será empleado en realizar diferentes cursos para concenciar a más gente del problema.
                 Además se usará para mover los papeles necesarios para llevar la propuesta a  tribunales, necesitando un despacho
                 jurídico para ello.
                 Todos los pasos que se vayan dando serán especificando a todo aquel que apoye la causa.
+                </label>
             </div>
         </div>
     </div>
@@ -143,20 +145,19 @@
     <br><br>
     <footer>
         <div id="infoFooter">
-            <div id="infoFooter">
-                More Info
-                <a href="inicio.html">About Us</a>
-                <a href="inicio.html">Ayuda</a>
-                <a href="inicio.html">Blog</a>
-                <a href="inicio.html">Más recursos</a>
-            </div>
-            <div id="ayudaFooter">
-                Atención
-                <a href="inicio.html">Contact</a>
-                <a href="inicio.html">Chat virtual</a>
-            </div>
+            <label><strong>More Info</strong></label> 
+            <a href="inicio.html">About Us</a>
+            <a href="inicio.html">Ayuda</a>
+            <a href="inicio.html">Blog</a>
+            <a href="inicio.html">Más recursos</a>
+        </div>
+        <div id="ayudaFooter">
+            <label><strong>Atención al cliente</strong></label>
+            <a href="inicio.html">Contact</a>
+            <a href="inicio.html">Chat virtual</a>
         </div>
         <div id="enlacesPolitics">
+            <label><strong>Enlaces de interés</strong></label>
             <a href="inicio.html">Terms of Use</a>
             <a href="inicio.html">Privacy Policy</a>
             <a href="inicio.html">Privacy Policy</a>
